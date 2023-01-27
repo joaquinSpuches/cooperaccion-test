@@ -68,15 +68,18 @@ text-align: end;
     margin-left: 0px;
     opacity: 0;
     font-size: 0.2vw;
-    animation: intro-txt 800ms ease-in 1200ms;
+    animation: intro-txt 200ms ease-in 1200ms;
     animation-fill-mode: forwards;
 }
 @keyframes intro-txt {
     0%{
-        opacity: -1;
+       
         font-size: 0.2vw;
         
         
+    }
+    50%{
+        opacity: 0;
     }
    
     

@@ -68,7 +68,7 @@ text-align: end;
     margin-left: 0px;
     opacity: 0;
     font-size: 0.2vw;
-    animation: intro-txt 200ms ease-in 1200ms;
+    animation: intro-txt 1000ms ease-in 1200ms;
     animation-fill-mode: forwards;
 }
 @keyframes intro-txt {
@@ -78,7 +78,7 @@ text-align: end;
         
         
     }
-    50%{
+    70%{
         opacity: 0;
     }
    
